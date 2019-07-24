@@ -149,12 +149,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5580ee82f9cb6c4f98100d9822ec142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  generateStyle: 0
   cornerBox: {fileID: 7941868965097819200, guid: 42edb62904f4db0448b056947613749e,
     type: 3}
   dynamicBox: {fileID: 2752768162858248354, guid: 39479d7dd8efac64481931ffe1e4e7ed,
     type: 3}
-  mazeHeight: 9
-  mazeWidth: 9
+  dynamicWallTall: {fileID: 4029950170966772171, guid: 13424e9f603d7f0489f44fd9f465266b,
+    type: 3}
+  dynamicWallWide: {fileID: 4599074869730771432, guid: fe210122b97bf914ea2eee755d9ba4ee,
+    type: 3}
+  staticWallTall: {fileID: 8484554416690991856, guid: 7a8764dec78832a45a42429fe11ab735,
+    type: 3}
+  staticWallWide: {fileID: 1766172148328416441, guid: f384251b94c57a44e83dba2533ca51d1,
+    type: 3}
+  mazeHeight: 25
+  mazeWidth: 25
 --- !u!4 &141059058
 Transform:
   m_ObjectHideFlags: 0
